@@ -29,9 +29,9 @@ export default {
             </span>
         </a>
     </div>
-    <div className="min-h-screen bg-gray-100 flex items-center fixed z-1035 top-20 justify-center p-4">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
         <div
-            className="w-full max-w-5xl bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
+            className="w-full fixed z-1035 top-20 max-w-5xl bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
             <div
                 className="hidden lg:flex flex-col justify-center bg-gradient-to-br from-indigo-400 via-indigo-300 to-blue-500 p-12 text-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
