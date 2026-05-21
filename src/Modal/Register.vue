@@ -147,7 +147,7 @@
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     <button
-                        className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
+                        className="items-center text-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
                         <svg class="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -167,7 +167,7 @@
                     </button>
 
                     <button
-                        className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
+                        className="items-center text-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
                         <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-800 flex-shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24">
