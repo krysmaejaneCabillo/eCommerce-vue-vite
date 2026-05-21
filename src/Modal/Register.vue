@@ -7,7 +7,7 @@
         <div
             className="w-full max-w-5xl bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
             <div
-                className="hidden lg:flex flex-col justify-center bg-gradient-to-br from-yellow-400 via-yellow-300 to-blue-500 p-12 text-white relative overflow-hidden">
+                className="hidden lg:flex flex-col justify-center bg-gradient-to-br from-purple-400 via-purple-300 to-blue-500 p-12 text-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-72 h-72 bg-white/10 rounded-full blur-3xl"></div>
                 <div className="absolute bottom-0 right-0 w-72 h-72 bg-black/10 rounded-full blur-3xl"></div>
 
