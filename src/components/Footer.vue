@@ -69,7 +69,7 @@
             <!-- Payment & Shipping Icons -->
             <div class="border-t border-b border-gray-300 py-5 mb-6">
                 <div class="flex flex-wrap items-center justify-center md:justify-between">
-                    <div class="flex space-x-2 ">
+                    <div class="flex items-center space-x-2 ">
                         <p class="text-sm font-medium">Payment methods:</p>
                         <div class="flex  text-2xl">
                             <svg class="w-6 h-6  text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
@@ -89,7 +89,7 @@
 
                         </div>
                     </div>
-                    <div class="flex space-x-2">
+                    <div class="flex items-center space-x-2">
                         <p class="text-sm font-medium mt-2 md:mt-0">Shipping partners:</p>
                         <div class="flex gap-3 text-2xl text-green-600">
                             <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
