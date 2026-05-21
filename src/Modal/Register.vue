@@ -21,7 +21,7 @@ export default {
 
     </div>
     <div class="">
-        <a href="/" class="flex-shrink-0 fixed z-1033"
+        <a href="/" class="flex-shrink-0 fixed z-1036"
             style="top: clamp(1rem, 3vw, 2rem); left: clamp(1rem, 3vw, 2rem);">
             <span
                 class="text-[clamp(1.6rem,3vw,2rem)] font-bold bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent hover:from-indigo-700 hover:to-blue-600 transition-all duration-300">
