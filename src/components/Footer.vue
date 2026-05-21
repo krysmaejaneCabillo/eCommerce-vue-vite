@@ -68,7 +68,7 @@
 
             <!-- Payment & Shipping Icons -->
             <div class="border-t border-b border-gray-300 py-5 mb-6">
-                <div class="flex flex-wrap items-center justify-center sm:flex-col md:justify-between">
+                <div class="flex flex-wrap items-center justify-center md:justify-between">
                     <div class="flex items-center space-x-2 ">
                         <p class="text-sm font-medium">Payment methods:</p>
                         <div class="flex  text-2xl">
