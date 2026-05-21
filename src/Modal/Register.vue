@@ -22,7 +22,7 @@ export default {
     </a>
 
     <div class="min-h-screen pt-16 pb-4 bg-gray-100 flex items-center justify-center p-4">
-        <div class="w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
+        <div class="fixed top-10 w-full max-w-4xl bg-white rounded-2xl shadow-xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
 
             <!-- Left Side -->
             <div
