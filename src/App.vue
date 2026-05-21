@@ -8,6 +8,7 @@ import Saved from './components/Saved.vue';
 import Krys from './components/Krys.vue';
 import Footer from './components/Footer.vue';
 import Help from './components/Help.vue';
+import Register from './Modal/Register.vue';
 export default {
     components: {
         Navbar,
@@ -18,7 +19,8 @@ export default {
         Saved,
         Krys,
         Footer,
-        Help
+        Help,
+        Register
     },
     data() {
         return {
@@ -51,5 +53,7 @@ export default {
     <Krys v-if="currentPage === 'Krys'" />
     <Help v-if="currentPage === 'Help'" />
     <Modal v-if="modal" @closeModal="closeBtn" />
+    <Register />
+    
     <Footer/>
 </template>
