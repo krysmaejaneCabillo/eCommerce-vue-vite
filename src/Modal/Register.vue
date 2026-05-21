@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            {/* Right Side */}
+        
             <div className="p-8 sm:p-10 lg:p-14 flex flex-col justify-center">
                 <div className="mb-8 text-center lg:text-left">
                     <h2 className="text-4xl font-bold text-gray-900">
