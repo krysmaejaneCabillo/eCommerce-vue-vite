@@ -11,6 +11,9 @@ export default {
         loginBtn() {
             this.$emit('show')
         },
+        registerBtn() {
+            this.$emit('register')
+        },
         navigate(page) {
             this.$emit('goTo', page)
             this.activePage = page
@@ -88,7 +91,7 @@ export default {
                 <!-- Right Side Icons/Links -->
                 <div class="hidden md:flex items-center gap-5 text-sm font-medium text-gray-700">
                     <a @click="loginBtn" href="#" class="hover:text-blue-600 transition-colors">Sign In</a>
-                    <a href="#" class="hover:text-blue-600 transition-colors">Register</a>
+                    <a @click="registerBtn" href="#" class="hover:text-blue-600 transition-colors">Register</a>
                     <a @click="navigate('Help')" href="#" class="hover:text-blue-600 transition-colors">Help</a>
                     <a href="#" class="relative p-2 hover:bg-white rounded-full transition-all">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -186,7 +189,7 @@ export default {
                         class="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                         Sign
                         In</p>
-                    <p
+                    <p @click="registerBtn"
                         class="block px-3 py-2.5 rounded-md text-base font-medium text-gray-700 hover:bg-blue-50 hover:text-blue-600">
                         Register</p>
                     <p @click="navigate('Help')"

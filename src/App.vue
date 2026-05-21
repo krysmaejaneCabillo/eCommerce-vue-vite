@@ -26,6 +26,7 @@ export default {
         return {
             modal: false,
             currentPage: 'Home',
+            registerModal: false,
         }
     },
     methods: {
@@ -38,14 +39,17 @@ export default {
         changePage(page) {
             this.currentPage = page;
 
-        }
+        },
+        registerBtn() {
+            this.registerModal = true;
+        },
     }
 }
 
 </script>
 
 <template>
-    <Navbar @show="signBtn" @goTo="changePage" />
+    <Navbar @show="signBtn" @register="registerBtn" @goTo="changePage" />
     <Home v-if="currentPage === 'Home'" />
     <DailyDeals v-if="currentPage === 'DailyDeals'" />
     <Sell v-if="currentPage === 'Sell'" />
@@ -53,7 +57,7 @@ export default {
     <Krys v-if="currentPage === 'Krys'" />
     <Help v-if="currentPage === 'Help'" />
     <Modal v-if="modal" @closeModal="closeBtn" />
-    <Register />
-    
-    <Footer/>
+    <Register v-if="registerModal" />
+
+    <Footer />
 </template>
