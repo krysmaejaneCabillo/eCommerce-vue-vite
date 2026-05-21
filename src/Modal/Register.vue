@@ -29,7 +29,7 @@ export default {
             </span>
         </a>
     </div>
-    <div className="h-full relative b-10 bg-gray-100 flex items-center justify-center p-4">
+    <div className="min-h-screen relative b-10 bg-gray-100 flex items-center justify-center p-4">
         <div
             className="w-full fixed z-1035 top-5 max-w-5xl bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
             <div
