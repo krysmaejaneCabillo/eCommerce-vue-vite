@@ -17,7 +17,7 @@
                     </h1>
                     <p className="text-lg text-white/90 leading-relaxed max-w-md">
                         Create your account and discover millions of products, deals,
-                        and exclusive offers inspired by the modern eBay shopping
+                        and exclusive offers inspired by the modern KRYS shopping
                         experience.
                     </p>
 
