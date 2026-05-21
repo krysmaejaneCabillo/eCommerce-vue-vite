@@ -1,9 +1,34 @@
 <script>
+export default {
+    data() {
+        return {
 
+        }
+    },
+    methods: {
+        closeRegister() {
+            this.$emit('close')
+        }
+
+
+    }
+}
 
 </script>
 
 <template>
+    <div @click="closeRegister" class="bg-white fixed top-0 w-screen h-screen z-1024">
+
+    </div>
+    <div class="">
+        <a href="/" class="flex-shrink-0 fixed z-1030"
+            style="top: clamp(1rem, 3vw, 2rem); left: clamp(1rem, 3vw, 2rem);">
+            <span
+                class="text-[clamp(1.6rem,3vw,2rem)] font-bold bg-gradient-to-r from-blue-600 to-indigo-700 bg-clip-text text-transparent hover:from-indigo-700 hover:to-blue-600 transition-all duration-300">
+                K R Y S
+            </span>
+        </a>
+    </div>
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
         <div
             className="w-full max-w-5xl bg-white rounded-3xl shadow-2xl overflow-hidden grid grid-cols-1 lg:grid-cols-2">
@@ -52,9 +77,8 @@
                         <div className="flex items-center gap-3">
                             <div
                                 className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-xl">
-                                <svg class="" aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                    viewBox="0 0 24 24">
+                                <svg class="" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                    height="24" fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2"
                                         d="M4 4.5V19a1 1 0 0 0 1 1h15M7 14l4-4 4 4 5-5m0 0h-3.207M20 9v3.207" />
@@ -175,7 +199,7 @@
                             <path
                                 d="M17.537 12.625a4.421 4.421 0 0 0 2.684 4.047 10.96 10.96 0 0 1-1.384 2.845c-.834 1.218-1.7 2.432-3.062 2.457-1.34.025-1.77-.794-3.3-.794-1.531 0-2.01.769-3.275.82-1.316.049-2.317-1.318-3.158-2.532-1.72-2.484-3.032-7.017-1.27-10.077A4.9 4.9 0 0 1 8.91 6.884c1.292-.025 2.51.869 3.3.869.789 0 2.27-1.075 3.828-.917a4.67 4.67 0 0 1 3.66 1.984 4.524 4.524 0 0 0-2.16 3.805m-2.52-7.432A4.4 4.4 0 0 0 16.06 2a4.482 4.482 0 0 0-2.945 1.516 4.185 4.185 0 0 0-1.061 3.093 3.708 3.708 0 0 0 2.967-1.416Z" />
                         </svg>
-                       <span>Apple</span>
+                        <span>Apple</span>
                     </button>
                 </div>
 

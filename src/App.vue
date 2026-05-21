@@ -43,6 +43,9 @@ export default {
         registerBtn() {
             this.registerModal = true;
         },
+        closeRegBtn() {
+            this.registerModal = true;
+        },
     }
 }
 
@@ -57,7 +60,7 @@ export default {
     <Krys v-if="currentPage === 'Krys'" />
     <Help v-if="currentPage === 'Help'" />
     <Modal v-if="modal" @closeModal="closeBtn" />
-    <Register v-if="registerModal" />
+    <Register v-if="registerModal" @close="closeRegBtn" />
 
     <Footer />
 </template>
