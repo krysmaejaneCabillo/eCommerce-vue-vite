@@ -51,6 +51,12 @@
                         <div className="flex items-center gap-3">
                             <div
                                 className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-xl">
+                                <svg width="200" height="400" viewBox="0 0 24 48" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13 0L2 24H10L11 28L22 4H14L13 0Z" fill="#FFD700" stroke="#FFA500"
+                                        stroke-width="0.5" />
+                                </svg>
+
 
                             </div>
                             <span className="text-white/90">Quick access to trending items</span>
@@ -76,7 +82,7 @@
                             <label className="block text-sm font-medium text-gray-700 mb-2">
                                 First Name
                             </label>
-                            <input type="text" placeholder="John"
+                            <input type="text" placeholder="Zy"
                                 className="w-full rounded-2xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" />
                         </div>
 
@@ -84,7 +90,7 @@
                             <label className="block text-sm font-medium text-gray-700 mb-2">
                                 Last Name
                             </label>
-                            <input type="text" placeholder="Doe"
+                            <input type="text" placeholder="Ron"
                                 className="w-full rounded-2xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" />
                         </div>
                     </div>
@@ -101,7 +107,7 @@
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                             Password
                         </label>
-                        <input type="password" placeholder="••••••••"
+                        <input type="password" placeholder="......"
                             className="w-full rounded-2xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" />
                     </div>
 
@@ -109,7 +115,7 @@
                         <label className="block text-sm font-medium text-gray-700 mb-2">
                             Confirm Password
                         </label>
-                        <input type="password" placeholder="••••••••"
+                        <input type="password" placeholder="......"
                             className="w-full rounded-2xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition" />
                     </div>
 
@@ -137,7 +143,7 @@
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <button className="border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
+                    <button className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
                         <svg class="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -156,7 +162,7 @@
                         Google
                     </button>
 
-                    <button className="border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
+                    <button className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
                         <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-800 flex-shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24">
@@ -168,7 +174,7 @@
                 </div>
 
                 <p className="text-center text-sm text-gray-500 mt-8">
-                    Already have an account?{' '}
+                    Already have an account?
                     <span className="text-blue-600 font-semibold cursor-pointer hover:underline">
                         Sign in
                     </span>
