@@ -51,11 +51,14 @@
                         <div className="flex items-center gap-3">
                             <div
                                 className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-xl">
-                                <svg width="200" height="400" viewBox="0 0 24 48" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13 0L2 24H10L11 28L22 4H14L13 0Z" fill="#FFD700" stroke="#FFA500"
-                                        stroke-width="0.5" />
+                                <svg class="" aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                    viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M4 4.5V19a1 1 0 0 0 1 1h15M7 14l4-4 4 4 5-5m0 0h-3.207M20 9v3.207" />
                                 </svg>
+
 
 
                             </div>
@@ -143,7 +146,8 @@
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <button className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
+                    <button
+                        className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
                         <svg class="w-4 h-4 sm:w-5 sm:h-5 flex-shrink-0" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -162,7 +166,8 @@
                         Google
                     </button>
 
-                    <button className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
+                    <button
+                        className="items-center border border-gray-300 rounded-2xl py-3 font-medium hover:bg-gray-50 transition">
                         <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-800 flex-shrink-0" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24">
